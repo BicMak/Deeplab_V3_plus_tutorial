@@ -17,13 +17,15 @@ Landscape Segmentation with Deeplab V3
 - 추론 결과를 이미지로 시각화
 
 ## 🗂 폴더 구조 (Directory Structure)
-project/
-├── data/                         # 이미지 및 마스크 데이터셋
-├── Modules/                      # 모델 및 학습 관련 모듈
-│   ├── DeepLabV3Plus.py         # DeepLab V3+ 모델 구현
-│   ├── Trainer.py               # 모델 학습 모듈
-│   ├── Configuration.py         # 설정 클래스
-│   ├── dataset.py               # 이미지 증강 및 커스텀 데이터셋
-│   ├── evaluation.py            # 성능 평가 함수
-│   └── xception.py              # xepction 모델 (출처 : https://github.com/Cadene/pretrained-models.pytorch/blob/master/pretrainedmodels/models/xception.py)
-├── image_segmentation_project.ipynb  # 전체 실행 Jupyter 노트북
+project/  
+├── data/                            # 이미지 및 마스크 데이터셋  
+├── Modules/                         # 모델 및 학습 관련 모듈  
+│   ├── DeepLabV3Plus.py             # DeepLab V3+ 모델 구현  
+│   ├── Trainer.py                   # 모델 학습 모듈  
+│   ├── Configuration.py             # 설정 클래스  
+│   ├── dataset.py                   # 이미지 증강 및 커스텀 데이터셋  
+│   ├── evaluation.py                # 성능 평가 함수  
+│   └── xception.py                  # Xception 모델  
+│                                     (출처: https://github.com/Cadene/pretrained-models.pytorch/blob/master/pretrainedmodels/models/xception.py)  
+├── image_segmentation_project.ipynb # 전체 실행 Jupyter 노트북  
+
